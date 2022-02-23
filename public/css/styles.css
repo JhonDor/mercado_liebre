@@ -109,16 +109,17 @@ div.burger-menu i{
 .description{
     font-size: 16px;
     font-weight: normal;
+    display:block;
+    color:#666;
+    
+    
 }
 
-h3,
-.description{
-    color: #666;
-}
+
 
 .description{
     display: none;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 section.banner img{
@@ -390,11 +391,14 @@ button{
     }
 
     .description{
-        display:none
+        color:white;
+
      }
 
      article:hover .description{
-        display: block;;
+        display: block;
+        color:#666;
+
 
      }
      article{
