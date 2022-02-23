@@ -275,6 +275,14 @@ button{
     font-size: 14px;
     
 }
+.login p{
+    margin-bottom: 15px;
+}
+.login input{
+    text-align: center;
+    border-radius:5px;
+    padding: 5px;
+}
 @media (min-width: 361px){
     
      article{
