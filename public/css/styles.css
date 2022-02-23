@@ -290,6 +290,16 @@ button{
     border-radius:5px;
     padding: 5px;
 }
+article:hover i{
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+}
+article:hover .description{
+    display: block;
+    color:#666;
+
+
+ }
 @media (min-width: 361px){
     
      article{
