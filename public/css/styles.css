@@ -36,8 +36,13 @@ div.logo{
 }
 form.busqueda{
     width: 50%;
+    margin-bottom:20px;
+    position:relative;
+    bottom: 20px
 }
-
+input.barra-busqueda{
+    width: 80%;
+}
 header nav{
     font-size: 12px;
     margin-top:20px;
@@ -80,6 +85,7 @@ div.burger-menu{
 div.top-header p.titulo{
     width:70%;
     text-align: center;
+    
    
 }
 
@@ -324,6 +330,7 @@ button{
     }
     form.busqueda{
         width: 40%;
+        
     }
     div.top-header p.titulo{
         width:30%;
@@ -348,6 +355,11 @@ button{
     }
     
 
+}
+@media(min-width:481px) {
+    input.barra-busqueda{
+        width: 80%;
+    }
 }
 
 @media(min-width:769px) {
@@ -419,8 +431,5 @@ footer i:hover{
         padding:10px;
         border-radius:50%
     }
-    
-
 }
-
 
